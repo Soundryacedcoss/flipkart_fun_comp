@@ -1,0 +1,91 @@
+.tsk04_nav{
+    width: 100%;
+    display: flex; 
+    column-gap: 3%;
+ }
+.tsk_04_sec{
+   
+    height: auto;
+    display:flex;
+   
+    column-gap: 3%;
+
+    padding-top: 3em;
+    overflow: hidden;
+    border: solid gray 4px;
+    
+}
+
+.tsk_04_img_sec_01{
+    width: 100%;
+    display: flex;
+   
+}
+
+.tsk_04_img_sec_01_01{
+    width: 100%;
+    height: auto;
+    
+    padding: 1em;
+   
+}
+.width_para_tsk04{
+    
+    height: auto;
+   
+    padding: 1%;
+}
+
+.divA{
+    width: 80%;
+    height: auto;
+    
+}
+.tsk_04_sec_02{
+
+    width: 10%;
+    height: auto;
+    margin: 1em;     
+}
+.tsk_04_side-img{
+    width: auto;
+    height: 25em;
+}
+#view_bt{
+   
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    margin-left: 55%;
+    margin-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+  
+}
+.tsk_04_para{
+    color: rgb(211, 211, 211);
+}
+.tsk04_image{
+    width: 90%;
+    height: 5%;
+    padding:  1em;
+} 
+@media screen and (max-width: 850px) {
+    div.tsk_04_sec {
+      display: inline;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    div.tsk_04_sec {
+    width: 100%;
+    }
+  }
+  .Div_flex{
+    display: flex;
+  }
+  @media screen and (max-width: 850px) {
+    div.tsk_04_img_sec_01 {
+      display: inline;
+    }
+  }
+

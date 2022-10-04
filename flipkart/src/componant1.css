@@ -1,0 +1,35 @@
+.tsk_01_main{
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    color: white;
+    width: auto;
+    display: flex;
+    /* background-color: rgb(65, 65, 245); */
+    background-color: #424bf5;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 1em;
+}
+#input_area{
+    width: 25%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.tsk_01_bt_01_login{
+    width: 10%;
+  
+    padding-left: 2em;
+    padding-right: 4em;
+    color: blue;
+}
+.logo_flip{
+    font-family: 'Courier New', Courier, monospace;
+}
+#drop_more{
+    background-color: #424bf5;
+    color: white;
+    border: #424bf5;
+}
+.tsk01_op{
+    font-size: x-large;
+}
