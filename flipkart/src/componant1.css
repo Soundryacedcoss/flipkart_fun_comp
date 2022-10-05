@@ -4,7 +4,6 @@
     color: white;
     width: auto;
     display: flex;
-    /* background-color: rgb(65, 65, 245); */
     background-color: #424bf5;
     justify-content: center;
     column-gap: 20px;
@@ -33,3 +32,18 @@
 .tsk01_op{
     font-size: x-large;
 }
+@media screen and (max-width: 880px) {
+    div.tsk_01_main {
+     flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    .img {
+    width: 20%;
+    }
+  }
+  @media screen and (max-width: 880px) {
+    #drop_more {
+    width: 20%;
+    }
+  }

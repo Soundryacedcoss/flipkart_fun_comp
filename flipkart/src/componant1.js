@@ -5,8 +5,8 @@ import img from './image/Flipkart1 (1).png'
 export default function Componant1() {
   return (
     <div className='tsk_01_main'>
-    <img src={img} alt="" />
-    {/* <p id='logo_flip'> <h3>Flipkart </h3>explore plus</p> */}
+    <img className="img" src={img} alt="" />
+   
     <input id='input_area' type="text" placeholder='Serach for products,brands and more'></input> 
     <button className='tsk_01_bt_01_login'>Login</button>
     <p>Become a Seller</p>
@@ -17,7 +17,7 @@ export default function Componant1() {
      <option className='tsk01_op'  value="">Women</option>
     </select>
     
-    <p>🛒Cart</p>
+    <div><p>🛒Cart</p></div>
    </div>
   )
 }
